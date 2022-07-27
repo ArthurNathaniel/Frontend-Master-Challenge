@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;    
+}
+
+.all{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.master{
+    display: flex;
+    width: 80%;
+    border-radius: 5px;   
+}
+
+.master__content, img{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.info{
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    padding-left: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.heading{
+    font-weight: 700;
+    font-family: Fraunces;
+}
+
+.descriptions{
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.price{
+    font-family:"Fraunces", sans-serif ;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: hsl(158, 36%, 37%);
+}
+
+.price span del{
+    color: hsl(212, 21%, 14%);
+    font-size: 14px;
+    font-family: 'Fraunces';
+}
+
+button{
+    background-color: hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius:10px;
+    color: #fff;
+    padding: 15px 10px;
+    font-family: Montserrat;
+    width: 270px;
+    margin-right: 30px;
+}
+
+button img{
+    width: 15px;
+    padding-right: 7px;
+}
