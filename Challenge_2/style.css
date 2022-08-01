@@ -1,0 +1,107 @@
+*{
+    /* font-family: Poppins; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 41%);
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+   
+ul li:hover ul.dropdown {
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    margin-left: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.nav__links{
+    margin-top: 30px;
+}
+.logo img{
+    width: 50px;
+}
+.nav__links li{
+    list-style: none;
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 100px;   
+}
+.nav__links li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.nav__Buttons{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-left:10px;
+    color: hsl(0, 1%, 57%);
+}
+
+.btn1{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.right img{
+    width: 500px;
+    float:right;
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 660px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+} 
+.left {
+    margin-top: 200px;
+    margin-left: 120px;
+    line-height: 60px;
+}
+.left h1{
+    font-size: 100px;
+    line-height: 80px;
+    margin-bottom: 50px;
+    color: #000;
+}
+.hero_description p{
+    width: 400px;
+    line-height: 30px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+}
+.btn3{
+    margin-top: 30px;
+}
+.btn3 button{
+    padding: 10px 20px;
+    border-radius:7px;
+    background-color: #000;
+    color:white;
+    font-weight: 500;
+}
+.sponsor{
+    margin-top: 60px;
+    /* justify-content: space-evenly; */
+}
