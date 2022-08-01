@@ -1,0 +1,172 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+body{
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.nav__links ul li{
+    display: inline;
+    padding-left:  20px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.nav__links a{
+    text-decoration: none;
+    color: #000;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.sub__hero{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.hero__img img{
+    width: 80%;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.hero__heading h1{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.hero__p p{
+    width: 550px;
+}
+.forms input{
+    padding: 10px 20px;
+    width: 290px;
+}
+.forms .btn1{
+    padding: 12px 50px;
+    color: #FFF;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    margin-left: 20px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.test{
+    background-color: #fff;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0.5rem 0.50rem 0.7rem #000;
+}
+.test img{
+    width: 30px;
+    border-radius: 15px;
+}
+.hero__2{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/bg-curve-desktop.svg);
+}
+.hero__heading_1 h2{
+    font-size: 30px;
+    width: 550px;
+    margin-top: 100px;
+}
+
+.hero__p1 p{
+    width: 500px;
+}
+.hero__img_1 img{
+    width: 80%;
+    margin-top: 40px;
+    /* margin-right: 100px; */
+}
+footer{
+    background-color: rgb(5, 5, 54);
+    color: #FFF;
+}
+.last{
+    background-color: hsla(240, 22%, 44%, 0.853);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: #fff;
+}
+.one p{
+    width: 500px;
+}
+.email{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.email input{
+    padding: 10px 20px;
+    width: 290px;
+}
+.btn2 button{
+    padding: 12px 50px;
+    color: #FFF;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px; 
+    font-weight: 700;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer .one{
+    display: block;
+}
+.one li{
+    list-style: none;
+    line-height: 40px;
+}
+.two{
+    margin-top: 40px;
+}
+.two li{
+    list-style: none;
+    line-height: 40px;
+}
+.two li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.three{
+    margin-top: 40px;
+}
+.three li{
+    list-style: none;
+    line-height: 40px;
+}
+.three li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.four img{
+    width: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
