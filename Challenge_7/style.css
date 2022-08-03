@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Josefin Sans;
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/* .one{
+   
+} */
+.hero{
+    float: right;
+   
+}
+.hero img{
+    margin-top: -100px;
+}
+.hero__heading h1{
+    color: hsl(0, 36%, 70%);
+    font-weight: 900;
+    width: 70%;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.hero__heading span{
+    color: #000;
+    font-family: Century Gothic;
+    letter-spacing: 14px;
+}
+.hero_p p{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 150px;
+    color:hsl(0, 46%, 55%);
+    font-weight: 900;
+}
+input{ 
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 370px;
+    height: 50px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid hsl(0, 36%, 70%);
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 18px 45px;
+    background-color: hsl(0, 36%, 70%);
+    color: #fff;
+    position: absolute;
+    left: 440px;
+    top: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
